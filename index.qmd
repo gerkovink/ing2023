@@ -425,7 +425,7 @@ There is no solution to this problem
 **Our solution**
 We chose to impute the data as `1 (never)`. There are a couple of reasons why we think that this is the best defendable scenario.
 
-1. `Never` has a semantic similarity to a behaviour not being applicable. However, `Never` implies intentionality; `Not Applicable` does not.
+1. `Never` has a semantic similarity to a behaviour not being applicable. However,  `Never` implies intentionality; `Not Applicable` does not.
 2. We know the effect the imputation has on the inference: Filling in `Never` will underestimate intentional behaviours. 
 
 In this case the choice was made to make a **deliberate error**. The estimates obtained would serve as an underestimation of *true behaviour* and can be considered a lower bound estimation. 
